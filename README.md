@@ -17,6 +17,15 @@ Options:
   -w, --write    Write changes back to file                            [boolean]
 ```
 
+### Using with yarn / npm
+
+You can use this tool in your script with npm & yarn like so:
+
+```
+yarn toml-tool set myconfig.toml ...
+yarn toml-tool get myconfig.toml myvalue
+```
+
 ### Exmaples
 
 ```
@@ -32,7 +41,7 @@ hello = "bar"
 #### Manipulating
 
 ```
-./index.js set test.toml --hello=my --production.hello=cat
+toml-tool set test.toml --hello=my --production.hello=cat
 hello = "my"
 
 [production]
@@ -47,16 +56,16 @@ hello = "bar"
 #### Reading
 
 ```
-./index.js get test.toml hello
+toml-tool get test.toml hello
 world
 ```
 
 ```
-./index.js get test.toml hello.production
+toml-tool get test.toml hello.production
 foo
 ```
 
 ```
-./index.js get test.toml hello.development
+toml-toolget test.toml hello.development
 bar
 ```

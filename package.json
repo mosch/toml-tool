@@ -11,6 +11,6 @@
     "yargs": "^17.0.1"
   },
   "bin": {
-    "toml": "./index.js"
+    "toml-tool": "./index.js"
   }
 }
