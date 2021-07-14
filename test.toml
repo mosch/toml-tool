@@ -1,0 +1,7 @@
+hello = "world"
+
+[production]
+hello = "foo"
+
+[development]
+hello = "bar"
