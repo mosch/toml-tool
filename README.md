@@ -1,13 +1,15 @@
-# toml-cli
+# toml-tool
+
+Simple cli tool for reading and manipulating toml files.
 
 ## Usage
 
 ```
-toml-cli [command]
+toml-tool [command]
 
 Commands:
-  toml-cli get <file> <path>
-  toml-cli set <file> --category.foo="bar" --category.my.foo="bar"
+  toml-tool get <file> <path>
+  toml-tool set <file> --category.foo="bar" --category.my.foo="bar"
 
 Options:
       --help     Show help                                             [boolean]

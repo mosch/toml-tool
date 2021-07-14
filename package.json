@@ -1,5 +1,5 @@
 {
-  "name": "toml-cli",
+  "name": "toml-tool",
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
