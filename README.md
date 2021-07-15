@@ -66,6 +66,6 @@ foo
 ```
 
 ```
-toml-toolget test.toml hello.development
+toml-tool get test.toml hello.development
 bar
 ```
